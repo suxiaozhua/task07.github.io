@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>TASK07</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./page.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+    <body>
+    	<div id="header">
+    		<div class="header_Left">
+    			<span class="pageLeft"></span>
+    		</div>
+    		<div class="header_Middle"><span style="color: #FFF">投票</span></div>
+    		<div class="header_Right">
+    			<span class="pageRight"></span>
+    		</div>
+    	</div>
+    	<div id="top">
+    		<div class="prompt"><p>发言讨论结束，大家请投票</p></div>
+    		<div id="triangle-down"></div>
+    		<div class="smallsmall"> 
+				  <button onclick="playPause()" class="audioImg">
+				  	<span class="pageAudio"></span>
+				  </button> 
+				  <audio id="audio1">
+				    <source src="./financialIndependence.mp3">
+				    您的浏览器不支持。
+				  </audio>
+			</div> 
+    		<div class="propt">
+    			<span class="littlePropt" style="color: #FFF">点击得票数最多的头像</span>
+    		</div>	
+    	</div>
+    	<div id="main">
+    		<div class="box">
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>2号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>警察</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>警察</span></div>
+	    				<div class="itemBottom"><span>2号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>法官</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>医生</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>杀手</span></div>
+	    				<div class="itemBottom"><span>1号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>3号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>4号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>5号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    			<div class="item">
+    				<a href="#">
+	    				<div class="itemTop"><span>水民</span></div>
+	    				<div class="itemBottom"><span>6号</span></div>
+	    			</a> 	
+					<ul class="itemTopDown">
+						<li><span class="downImg"></span></li>
+					</ul>					   				
+    			</div>
+    		</div>
+    	</div>
+    	<div id="footer">
+    		<div class="vote"><span><button class="voteButton" onClick="jump()">投票</button></span></div>
+    	</div>
+    	<script>
+    		function jump() {
+    			window.open("./theEnd.html");
+    		}
+
+    		var myAudio=document.getElementById("audio1"); 
+
+			function playPause()
+			{ 
+				if (myAudio.paused) 
+				  myAudio.play(); 
+				else 
+				  myAudio.pause(); 
+			} 
+    	</script>
+    </body>
+</html>

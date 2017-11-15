@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+#header {
+	background-color: #29BDE0;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.header_Left {
+	display: block;
+	float: left;
+	width: 35px;
+	height: 35px;
+	background-image: url(./images/end.png);
+	background-repeat: no-repeat;
+	margin: 10px 0 0 12px;
+}
+
+.pageLeft {
+	background-position: 0 0;
+}
+
+.header_Middle {
+    position: absolute;
+	left: 50%;
+	width: 65px;
+	margin-left: -38px; 
+    height: 30px;
+    background-color: #29BDE0;
+    word-break: break-word;
+    text-align:center;
+    padding: 10px 5px 0 5px;
+	font-weight: bold;
+}
+
+.header_Middle span {
+	font-size: 16px;
+}
+
+.header_Right span {
+	display: block;
+	float: right;
+	width: 24px;
+	height: 24px;
+	background-image: url(./images/end.png);
+	background-repeat: no-repeat;
+	margin: 10px 10px 0 10px;
+}
+
+.pageRight {
+	background-position: -100px 0px;
+}
+
+#main {
+	padding-top: 40px;
+	width: 100%;
+	background-color: #29BDE0;
+	margin-bottom: 65px;
+
+}
+
+#publicity {
+	width: 100%;
+	background-color: #29BDE0;	
+}
+
+.bigImg {
+    position: absolute;
+    top: 60px;
+	left: 50%;
+	width: 300px;
+	margin-left: -128px; 
+    height: 300px;
+}
+
+.bigImg span {
+	display: table-cell;
+	text-align: center;
+	width: 250px;
+	height: 150px;
+	background-image: url(./images/end.png);
+	background-repeat: no-repeat;
+	background-color: #29BDE0;
+}
+
+.publicityImg {
+	background-position: 0 -100px;
+}
+
+.pbtext {
+	margin: 180px 30px 10px;
+}
+
+.pbtext p {
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 550;
+}
+
+.sstext {
+	margin: 10px 30px 5px;
+}
+
+.sstext p {
+	line-height: 22px;
+	font-size: 14px;
+}
+
+#everday {
+	width: 100%;
+	background-color: #FFF;
+	padding: 10px 0;
+	border-bottom: 1px solid #9A9A9A;
+}
+
+.title {
+	font-size: 16px;
+	line-height: 23px;
+	padding-bottom: 8px;
+	width: 100%;
+}
+
+#footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(152,223,240,0.7);
+}
+
+#footer .left {
+    float: left;
+    margin: 10px 0 10px 4%;
+    border-radius: 10px;
+    width: 45%;
+    background-color: #F66F6F;
+}
+
+#footer .right {
+    float: right;
+    margin: 10px 4% 10px 0;
+    background-color: #FBB435;
+    border-radius: 10px;
+    width: 45%;
+}
+#footer span {
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
+
+.left {
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px 0 0;
+}
+
+.right {
+    color: #FFF;
+    font-size: 18px;
+	padding: 10px 0 0;
+}
